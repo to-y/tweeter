@@ -20,9 +20,9 @@ The end result should look and function like this:
 
 1. Fork and clone your fork of this repository.
 2. Install dependencies: `npm install` or `npm i` for short.
-3. Start the web server from the command line: `npm run local`
-4. Create a `.env` file in the root of the project and add the following line to it:
+3. Create a `.env` file in the root of the project and add the following line to it:
   - `MONGODB_URI=mongodb://127.0.0.1:27017/tweeter`
+4. Start the web server from the command line: `npm run local`
 5. Open the app on <http://localhost:8080/> and make sure that it's loading.
 6. Seed the mongodb with initial tweets: `npm run seed`.
 7. Connect to your local mongo db using `mongo tweeter` and use `show collections` and `db.tweets.find().pretty()` to see the tweets in the database (this will be useful later).
