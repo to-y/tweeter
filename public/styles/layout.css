@@ -10,16 +10,28 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 /*
  * Global layout stuff
  */
 
 body {
   margin: 0;
-  color: #244751;
+  color: #eee;
   background-color: #eee;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+  background-color: white;
+  width: 450px;
+  margin: auto auto;
+  height: 100%;
+  position: relative;
+ }
